@@ -11,8 +11,7 @@ var umd        = require('gulp-wrap-umd');
  */
 
 gulp.task('dev', function() {
-    gulp.src('dist/scrollreveal.min.js')
-		.pipe(gulp.dest('dev'));
+    gulp.src('dist/scrollreveal.min.js').pipe(gulp.dest('dev'));
 });
 
 gulp.task('default', function() {
